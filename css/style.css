@@ -163,3 +163,44 @@ h2{
     text-align: center;
     margin:0 auto;
 }
+
+/* section 3 */
+
+.foto__card{
+    flex-basis: 100%;
+    /* flex-grow: 1; */
+    min-height: 200px;
+    border-radius: 20px;
+    background-color:blueviolet;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.foto{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin:0 auto;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.nat{
+    background-image: url(../img/testimonial1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.celia{
+    background-image: url(../img/testimonial2.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.bob{
+    background-image: url(../img/testimonial3.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
