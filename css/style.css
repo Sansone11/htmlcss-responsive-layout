@@ -204,3 +204,23 @@ h2{
     background-position: center;
 
 }
+
+.text{
+    color: white;
+}
+
+/* section 4 */
+
+.color{
+    background-color: blueviolet;
+}
+
+.benefit__card{
+    flex-basis: 100%;
+    /* flex-grow: 1; */
+    min-height: 200px;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: white;
+}
