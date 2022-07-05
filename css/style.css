@@ -42,8 +42,8 @@
     min-height: 200px;
     border-radius: 20px;
     background-color: rgb(144, 224, 239);
-    gap:1 rem;
     padding: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .card>p{
@@ -98,4 +98,68 @@ h2{
 
  }
 
+ /* section 2s */
 
+ .planning__container{
+    width: 375px;
+    min-height: 200px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    padding: 2rem;
+   
+ }
+
+ .planning__box1{
+    flex-basis: 100%;
+    background-color: blueviolet;
+
+ }
+
+ .planning__img{
+    background-image: url(../img/planning1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width:80%;
+    height: 200px;
+    margin:0 auto;
+    background-color: white;
+
+ }
+
+ .planning__box2{
+    flex-basis: 100%;
+    min-height: 300px;
+    border-radius: 20px;
+    background-color: white;
+    
+ }
+
+ .development__img{
+    display: block;
+    background-image: url(../img/planning2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 300px;
+    min-height: 200px;
+    margin:0 auto;
+    margin-top: 30px;
+ }
+
+ .planning__text{
+    max-width: 300px;
+    min-height: 100px;
+    margin:0 auto;
+    
+ }
+
+.push__down{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    text-align: center;
+    margin:0 auto;
+}
