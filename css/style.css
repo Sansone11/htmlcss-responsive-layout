@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: solid 1px black;
+}
+
+.container{
+    width: 375px;
+    padding:30px;
+    min-height: 200px;
+    margin:0 auto;
+}
+
+.navbar{
+    width: 375px;
+    margin:0 auto;
+    height: 200px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo{
+    min-height: 50px;
+    background-image: url(../img/logo.png);
+}
+
+/* section 1 */
+
+.card__container .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px;
+    margin:0 auto;
+}
+.card{
+    flex-basis: 100%;
+    /* flex-grow: 1; */
+    min-height: 200px;
+    border-radius: 20px;
+    background-color: rgb(144, 224, 239);
+    gap:1 rem;
+    padding: 1rem;
+}
+
+.card>p{
+    gap: 1rem;
+}
+
+.one{
+    flex-grow: 2;
+    
+}
+
+.card__img{
+    margin:0 auto;
+    width:200px;
+    height:250px;
+    background-image: url(../img/phone.png);
+    min-height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    background-position: center;
+    bottom: 0px;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    height: 35px;
+    border-radius:20px;
+    background-color:rgb(0, 110, 255) ;
+    color: white;
+    margin-top:1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2{
+    margin-bottom: 2rem;
+    flex-wrap: nowrap;
+}
+ .clean__img{
+    background-image: url(../img/);
+ }
+
+ .web__img{
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    color:rgb(0, 110, 255);
+    height: 100px;
+    margin:0 auto;
+
+ }
+
+
