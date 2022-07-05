@@ -224,3 +224,11 @@ h2{
     margin-bottom: 1.5rem;
     background-color: white;
 }
+
+.helper{
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* section 5 */
