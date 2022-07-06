@@ -66,21 +66,30 @@
 }
 .card{
     flex-basis: 100%;
-    /* flex-grow: 1; */
     min-height: 200px;
     border-radius: 20px;
     background-color: rgb(144, 224, 239);
-    padding: 1rem;
+    padding: 2rem;
     margin-bottom: 1.5rem;
 }
 
-.card>p{
-    gap: 1rem;
+.card p{
+    line-height: 2rem;
+    font-weight: bold;
 }
 
 .one{
     flex-grow: 2;
     
+}
+
+.card .fa-solid{
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    color:rgb(0, 110, 255);
+    height: 50px;
+    margin-left: 6rem;
+    font-size: 3rem;
 }
 
 .card__img{
@@ -110,9 +119,10 @@ button{
     border: none;
 }
 
-h2{
+.card h2{
     color:rgb(0, 110, 255) ;
     margin-bottom: 2rem;
+    text-align: center;
     flex-wrap: nowrap;
 }
 
@@ -120,14 +130,6 @@ h2{
     background-image: url(../img/);
  }
 
- .web__img{
-    display: inline-block;
-    margin-bottom: 1.5rem;
-    color:rgb(0, 110, 255);
-    height: 100px;
-    margin:0 auto;
-
- }
 
  /* section 2s */
 
@@ -140,7 +142,21 @@ h2{
     flex-wrap: wrap;
     background-color: blueviolet;
     padding: 2rem;
+    color: white;
    
+ }
+
+ .planning__container h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+ }
+
+ .planning__container p{
+    line-height: 2rem;
+    font-weight: normal;
+    display: block;
+    margin-bottom: 4rem;
  }
 
  .planning__box1{
@@ -153,6 +169,7 @@ h2{
     background-image: url(../img/planning1.png);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     max-width:80%;
     height: 200px;
     margin:0 auto;
@@ -165,7 +182,14 @@ h2{
     min-height: 300px;
     border-radius: 20px;
     background-color: white;
+    color: black;
     
+ }
+
+ .planning__box2 p{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
  }
 
  .development__img{
@@ -176,6 +200,7 @@ h2{
     max-width: 300px;
     min-height: 200px;
     margin:0 auto;
+    margin-left: 3rem;
     margin-top: 30px;
  }
 
@@ -191,12 +216,14 @@ h2{
  }
 
 .push__down{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     background-color: blueviolet;
     text-align: center;
     margin:0 auto;
+    margin-bottom: 3rem;
+    padding-top: 0.75rem;
 }
 
 /* section 3 */
@@ -209,6 +236,22 @@ h2{
     background-color:blueviolet;
     padding: 1rem;
     margin-bottom: 1.5rem;
+}
+
+.committed h2,h3{
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+.committed h2{
+    color: blueviolet;
+}
+
+.committed p{
+    line-height: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .foto{
@@ -258,6 +301,28 @@ h2{
     padding: 1rem;
     margin-bottom: 1.5rem;
     background-color: white;
+    padding: 1.5rem;
+}
+
+.benefit__card button{
+    margin-right: 5rem;
+}
+
+.color h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.benefit__card h2,h3{
+    text-align: left;
+    color: blueviolet;
+    margin-bottom: 2rem;
+}
+
+.benefit__card p{
+    line-height: 2rem;
+    font-size: 1rem;
 }
 
 .helper{
@@ -266,7 +331,28 @@ h2{
     background-position: center;
 }
 
+.color{
+    margin-bottom: 3rem;
+
+}
+
 /* section 5 */
+
+.box__container h2{
+    color: blueviolet;
+    margin-bottom: 2rem;
+}
+
+.box__container h4{
+    color: blueviolet;
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 2 rem;
+}
+
+.box__container p{
+    line-height: 2rem;
+}
 
 .violet{
     background-color: blueviolet;
@@ -285,7 +371,49 @@ h2{
 
 /* section 6 */
 
+.violet h3{
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;    
+}
+
+.violet h2{
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+#yellow{
+    text-align: center;
+    font-size: 3rem;
+    color: yellowgreen;
+    margin-bottom: 2rem;
+}
+.violet p{
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.violet ul{
+    display: flex;
+    font-size: 0.6rem;
+    gap: 2px;
+}
+
+/* section 7 */
+
 .black{
     background-color: black;
     color: white;
+}
+
+.lorem{
+    margin-bottom: 3rem;
+    display: inline-block;
+}
+
+.black p{
+    line-height: 2rem;
+    font-size: 0.7rem;
+
 }
